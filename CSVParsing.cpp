@@ -7,7 +7,7 @@
 std::vector<std::string> Read(const std::string &FileName);
 int main()
 {
-	std::vector<std::string> x = Read("Hola.csv");
+	std::vector<std::string> x = Read("ejemplo.csv");
 	for (unsigned int i = 0; i < x.size(); i++) { std::cout << x[i] << std::endl; }
 	system("pause");
 }
