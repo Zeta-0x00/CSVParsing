@@ -12,5 +12,6 @@ int main()
 	for (unsigned int i = 0; i < x.size(); i++) { cout << x[i] << endl; }
 	x.push_back("Hallo; this is the; test");
 	Write(x,path);
+	for (unsigned int i = 0; i < x.size(); i++) { cout << x[i] << endl; }
 	system("pause");
 }
